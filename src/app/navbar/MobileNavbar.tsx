@@ -309,7 +309,7 @@ export default function MobileNavbar() {
             <div className="grid grid-cols-2 gap-3">
               {/* Login */}
               <Link
-                href="/login"
+                href="/auth/login"
                 onClick={closeMenu}
                 className="flex items-center justify-center rounded-xl border border-gray-200 px-4 py-3 text-sm font-semibold text-gray-700 transition-all duration-200 hover:border-gray-300 hover:bg-gray-50 active:scale-[0.98]"
               >
@@ -318,7 +318,7 @@ export default function MobileNavbar() {
 
               {/* Sign Up */}
               <Link
-                href="/register"
+                href="/auth/register"
                 onClick={closeMenu}
                 className="flex items-center justify-center rounded-xl bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-blue-700 active:scale-[0.98]"
               >

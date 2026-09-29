@@ -164,14 +164,14 @@ export default function PCNavbar() {
         {/* Authentication */}
         <div className="hidden items-center gap-3 lg:flex">
           <Link
-            href="/login"
+            href="/auth/login"
             className="rounded-lg px-4 py-2.5 text-sm font-semibold text-gray-700 transition-colors hover:bg-gray-100"
           >
             Login
           </Link>
 
           <Link
-            href="/register"
+            href="/auth/register"
             className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
           >
             Sign Up
